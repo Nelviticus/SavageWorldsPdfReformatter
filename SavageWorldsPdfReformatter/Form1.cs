@@ -64,6 +64,10 @@ namespace SavageWorldsPdfReformatter
                 .Replace("Color", "Colour")
                 .Replace("odor", "odour")
                 .Replace("Odor", "Odour")
+                .Replace("center", "centre")
+                .Replace("Center", "Centre")
+                .Replace("favorite", "favourite")
+                .Replace("Favorite", "Favourite")
                 .Trim();
             richTextBoxOutput.Text = Regex.Replace(reformattedText, @"[ ]{2,}", " ");
         }
