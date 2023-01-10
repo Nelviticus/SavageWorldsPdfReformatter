@@ -28,6 +28,7 @@ namespace SavageWorldsPdfReformatter
         public Form1()
         {
             InitializeComponent();
+            ResizeTextBoxes();
         }
 
         private void richTextBoxInput_TextChanged(object sender, EventArgs e)
